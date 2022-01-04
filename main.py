@@ -28,7 +28,7 @@ player = 'Frank Rijkaard'
 first_name = player[:player.find(' ')]
 # print(first_name)
 
-first_name_len = len(player[:player.find(' ')])
+first_name_len = len(first_name)
 # print(first_name_len)
 
 last_name_len = len(player[player.find(' ')+1:])
